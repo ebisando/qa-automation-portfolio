@@ -16,3 +16,4 @@ def test_login_valid_user(driver):
     driver.find_element(By.ID, "loginBtn").click()
 
     assert "Dashboard" in driver.page_source
+# test
